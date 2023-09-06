@@ -27,7 +27,7 @@ public class NewsletterService implements Validation<NewsletterDto> {
     private final TokenValidation tokenValidation;
 
     public ResponseBody sendNewsletter(NewsletterDto newsletterDto) {
-        validate(newsletterDto);
+        validated(newsletterDto);
 
         usuarioRepository
                 .findAll()
