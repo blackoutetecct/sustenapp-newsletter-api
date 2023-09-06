@@ -17,7 +17,7 @@ public class EmailDependency {
         try {
             javaMailSender.send(emailMapper.toMapper(emailDTO, javaMailSender));
         } catch (Exception ignored) {
-            throw new ExceptionGeneric("", "", 500);
+            throw new ExceptionGeneric("FALHA NO SERVICO DE EMAIL", "FALHA NO SERVICO DE EMAIL", 500);
         }
     }
 }

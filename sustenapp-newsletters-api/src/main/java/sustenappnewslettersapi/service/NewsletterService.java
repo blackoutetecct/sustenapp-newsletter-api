@@ -64,6 +64,6 @@ public class NewsletterService implements Validation<NewsletterDto> {
     @Override
     public void validated(NewsletterDto value) {
         if(!validate(value))
-            throw new ExceptionGeneric("", "", 400);
+            throw new ExceptionGeneric("INFORMAÇÕES INCOMPATIVIES COM O ESPERADO", "INFORMAÇÕES INCOMPATIVIES COM O ESPERADO", 400);
     }
 }

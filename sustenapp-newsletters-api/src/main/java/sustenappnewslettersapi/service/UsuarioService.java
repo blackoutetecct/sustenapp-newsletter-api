@@ -59,6 +59,6 @@ public class UsuarioService implements Validation<UsuarioDto> {
     @Override
     public void validated(UsuarioDto value) {
         if(!validate(value))
-            throw new ExceptionGeneric("", "", 400);
+             throw new ExceptionGeneric("INFORMAÇÕES INCOMPATIVIES COM O ESPERADO", "INFORMAÇÕES INCOMPATIVIES COM O ESPERADO", 400);
     }
 }
