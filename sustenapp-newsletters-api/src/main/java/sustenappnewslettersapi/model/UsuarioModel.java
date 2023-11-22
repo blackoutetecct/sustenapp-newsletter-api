@@ -23,6 +23,5 @@ public class UsuarioModel implements Serializable {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
-    @Column(unique = true)
     private String email;
 }
