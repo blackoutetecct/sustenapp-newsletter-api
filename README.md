@@ -20,12 +20,12 @@
 ### DOMINIO DA API
 
 ```
-https://sustenapp-newsletter-api-production.up.railway.app
+https://sustenapp-newsletter-production.up.railway.app
 ```
 
 #
 ### DOCUMENTACAO DA API
 
 ```
-https://sustenapp-newsletter-api-production.up.railway.app/swagger-ui/index.html
+https://sustenapp-newsletter-production.up.railway.app/swagger-ui/index.html
 ```
